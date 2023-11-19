@@ -30,8 +30,6 @@ node *new_person(char name[], char sname[], char pnum[], char email[]) {
 }
 
 int is_valid_email(const char *email) {
-    // Bu basit bir email doğrulama örneğidir. Gerçek bir uygulamada daha kapsamlı bir kontrol yapmalısınız.
-    // Bu örnek, "@" işaretini içerip içermediğini kontrol eder.
     return strchr(email, '@') != NULL;
 }
 
