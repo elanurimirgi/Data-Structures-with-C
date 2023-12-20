@@ -53,7 +53,7 @@ void postOrder(node *root){
 }
 
 int main() {
-    node *root = NULL; // Initialize the root to NULL
+    node *root = NULL; 
     int num, i = 0;
 
     while (i < 7) {
